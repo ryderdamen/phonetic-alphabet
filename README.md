@@ -1,17 +1,17 @@
 # Phonetic Alphabet
-A python package for converting characters and numbers into their phonetic equivalents.
+A Python package for converting characters and digits to phonetic alphabet equivalents.
 
 ## Installation
 Installation can be done with the Python Package Index (PyPI).
 
-```
+```bash
 pip install phonetic_alphabet
 ```
 
 ## Examples
 Converting an aircraft call-sign:
 
-```
+```python
 import phonetic_alphabet as alpha
 
 call_sign = 'CF-ABC'
@@ -20,7 +20,7 @@ response = alpha.read(call_sign)
 ```
 
 Converting digits:
-```
+```python
 import phonetic_alphabet as alpha
 
 heading = 290
