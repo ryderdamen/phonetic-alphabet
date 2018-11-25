@@ -1,0 +1,7 @@
+# Standard
+*.pyc
+/dist/
+/*.egg-info
+/*.egg
+**/.DS_Store
+env
