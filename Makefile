@@ -12,3 +12,7 @@ publish:
 build:
 	@echo "Building Dist..."; \
 	python setup.py sdist bdist_wheel
+
+.PHONY: test
+test:
+	pytest phonetic_alphabet/tests/
