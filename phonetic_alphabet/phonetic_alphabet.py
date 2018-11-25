@@ -1,4 +1,4 @@
-""" Phonetic Alphabet - Entry point for package """
+""" Phonetic Alphabet - Main Logic """
 import helpers
 
 

@@ -1,4 +1,4 @@
-from setuptools import setup
+import setuptools
 
 
 def get_readme():
@@ -9,9 +9,9 @@ INSTALL_REQUIRES = []
 TESTS_REQUIRE = ['pytest']
 
 
-setup(
+setuptools.setup(
     name='phonetic_alphabet',
-    version='0.0.1',
+    version='0.0.4',
     description='Convert characters and digits to phonetic alphabet equivalents.',
     long_description=get_readme(),
     long_description_content_type="text/markdown",
@@ -21,7 +21,7 @@ setup(
     author_email='dev@ryderdamen.com',
     license='MIT',
     packages=setuptools.find_packages(),
-    install_requires=INSTALL_REQUIRES
+    install_requires=INSTALL_REQUIRES,
     test_suite='pytest',
     tests_require=TESTS_REQUIRE,
 )
