@@ -1,6 +1,6 @@
 """ Main unit tests for Phonetic Alphabet package """
 
-from phonetic_alphabet.phonetic_alphabet import read
+from phonetic_alphabet import read
 
 
 def test_read_can_convert_alpha_chars():
