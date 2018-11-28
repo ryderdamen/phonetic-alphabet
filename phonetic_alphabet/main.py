@@ -25,7 +25,7 @@ def read(text):
     Arguments:
         text {str} -- The input text to convert to phonetics
     """
-    text = unicode(text)
+    text = str(text)
     if not helpers.contains_only_phonetic_chars(text):
         raise NonSupportedTextException()
     return _process_replacements(text)
