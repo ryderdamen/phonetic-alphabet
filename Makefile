@@ -15,4 +15,4 @@ build:
 
 .PHONY: test
 test:
-	pytest phonetic_alphabet/tests/
+	pytest tests/
