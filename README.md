@@ -9,7 +9,7 @@ A Python package for converting characters and digits to phonetic alphabet equiv
 Installation can be done with the Python Package Index (PyPI).
 
 ```bash
-pip install phonetic_alphabet
+pip install phonetic-alphabet
 ```
 
 ## Examples
