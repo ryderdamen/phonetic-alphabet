@@ -1,4 +1,5 @@
 """ Tests for the helpers of the phonetic alphabet """
+
 from phonetic_alphabet import helpers
 
 
