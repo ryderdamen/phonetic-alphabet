@@ -6,4 +6,5 @@
 /*.egg
 **/.DS_Store
 env
+env3
 .vscode/

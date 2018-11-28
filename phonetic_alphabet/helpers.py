@@ -1,8 +1,8 @@
 """ Helper methods for Phonetic Alphabet package """
 
 import re
-from data.icao_alphabet import icao_alphabet
-from data.numbers import numbers
+from .data.icao_alphabet import icao_alphabet
+from .data.numbers import numbers
 
 
 def extra_supported_chars():
