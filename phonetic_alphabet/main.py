@@ -1,4 +1,5 @@
 """ Phonetic Alphabet - Main Logic """
+
 import helpers
 
 
@@ -29,4 +30,3 @@ def read(text):
     if not helpers.contains_only_phonetic_chars(text):
         raise NonSupportedTextException()
     return _process_replacements(text)
-
