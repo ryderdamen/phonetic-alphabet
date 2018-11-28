@@ -11,7 +11,7 @@ TESTS_REQUIRE = ['pytest']
 
 setuptools.setup(
     name='phonetic_alphabet',
-    version='0.0.4',
+    version='0.0.5',
     description='Convert characters and digits to phonetic alphabet equivalents.',
     long_description=get_readme(),
     long_description_content_type="text/markdown",
