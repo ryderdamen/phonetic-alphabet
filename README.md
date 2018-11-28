@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/ryderdamen/phonetic-alphabet.svg?style=shield)](https://circleci.com/gh/ryderdamen/phonetic-alphabet)
+[![PyPI version](https://badge.fury.io/py/phonetic-alphabet.svg)](https://badge.fury.io/py/phonetic-alphabet)
+
+
 # Phonetic Alphabet
 A Python package for converting characters and digits to phonetic alphabet equivalents.
 
