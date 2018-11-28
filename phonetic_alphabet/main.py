@@ -1,6 +1,6 @@
 """ Phonetic Alphabet - Main Logic """
 
-import helpers
+from . import helpers
 
 
 class NonSupportedTextException(Exception):
